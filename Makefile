@@ -385,9 +385,7 @@ LDGOLD		= $(CROSS_COMPILE)ld.gold
 
 
 
-CC=/home/grahame/toolchains/prebuilts_clang_host_linux-x86_clang-4639204-master/bin/clang
-
-
+CC=/home/grahame/toolchains/clang-4639204/bin/clang
 
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
